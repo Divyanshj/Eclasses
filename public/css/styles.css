@@ -1,0 +1,208 @@
+
+.brandHeading{
+    color:#610094 !important;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+  }
+ .nav-item{
+   padding: 0 1vw 0 0.5vw;
+ }
+ .nav-pad{
+   background-color: #610094;
+   border: 3px solid white;
+    border: 3px solid yellow;
+ }
+ .nav-pad:hover{
+   background-color:#C400FF;
+   border: 3px solid white;
+   box-shadow: 5px 5px grey;
+ }
+/*******************************home***********************************************/
+.homeHeading{
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  text-transform: uppercase;
+  color:#610094;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.col{
+  padding-top: 1vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.courseCards{
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5vw;
+  box-shadow: 10px 10px 5px grey;
+  transition: all 0.3s ease-out;
+  margin-bottom: 2vw;
+}
+.courseCards:hover{
+  transform: translateY(-8px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11);
+
+  box-shadow: 10px 10px 5px grey;
+}
+
+.courseCards h5 {
+font-family: 'Kanit', sans-serif;
+color:#610094;
+}
+
+.CourseBTN{
+font-family: 'Kanit', sans-serif;
+  border: 3px solid white;
+}
+.CourseBTN:hover{
+  background-color:#610094;
+  border: 3px solid yellow;
+}
+.subjectIMG{
+  padding-top: 0;
+  margin-top: 0;
+  border-top-left-radius:8%;
+  border-top-right-radius:8%;
+  width: 100.5%;
+}
+.subjectsROW{
+  padding-left: 1vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.dropBTN{
+  background-color:#5C33F6;
+}
+.dropBTN:hover{
+  background-color:#610094;
+  border-radius: 2px solid yellow;
+}
+/***********************************************************signup***************************************************************/
+.signupHeading{
+  padding-top: 5vh;
+  font-family: 'Monda', sans-serif;
+  color:#610094;
+  text-transform: uppercase;
+}
+.signupSUBMITbtn{
+  margin-top: 2vh;
+  background-color:#610094;
+}
+.googleCOL{
+  border-left: 3px solid #610094;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.googleCHOICE{
+  color:#610094;
+  font-family: 'Monda', sans-serif;
+}
+.googlesignupBTN{
+  background-color: red;
+}
+.googlesignupBTN a{
+  padding: 0;
+    color: white !important;
+}
+.signupCARD{
+  border: none !important;
+}
+/***********************************************************Course***************************************************************/
+.courseName{
+  padding-top: 5vh;
+  font-family: 'Monda', sans-serif;
+  color:#610094;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.aboutCourse{
+    font-family: 'Monda', sans-serif;
+  color:#610094;
+}
+.des{
+  text-align: left;
+  color: #AAAAAA;
+}
+.purchase{
+  font-family: 'Monda', sans-serif;
+  color:#610094;
+    font-weight: 400;
+}
+.nameList{
+  font-family: 'Kanit', sans-serif;
+  color: #FF7A00;
+  text-transform: uppercase;
+}
+.purchaseBTN{
+  font-family: 'Kanit', sans-serif;
+  background-color: #C400FF;
+  color: white;
+  border: 3px solid white;
+}
+.purchaseBTN:hover{
+  border: 3px solid yellow;
+}
+/*************************************************landing page**********************************************/
+.landingcontainer{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height:90vh;
+}
+.landing-heading{
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 600;
+  color:#610094;
+  text-shadow: 3px 3px #FAFF00;
+  font-size: 4rem;
+}
+.landing-subheading{
+  font-family: 'Kanit', sans-serif;
+  color: #716F81;
+}
+.landing-getstarted{
+  background-color:#610094;
+  border: 3px solid yellow;
+}
+.landing-getstarted:hover{
+  background-color: #C400FF;
+  border: 3px solid #FAFF00;
+  box-shadow:10px 10px grey;
+}
+/****************************************************profile****************************************************/
+.profile1con{
+  margin-top:4rem;
+  text-align: center;
+}
+
+.details{
+  text-align: left;
+  color:#610094;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+.editBTN{
+  border: 2px solid yellow;
+  background-color: #FF67E7;
+  color: white;
+}
+.editBTN:hover{
+  box-shadow: 5px 5px grey;
+}
+.profileHeading{
+  font-family: 'Monda', sans-serif;
+  color:#FF67E7;
+  font-size: 5rem;
+  text-shadow: 4px 4px yellow;
+}

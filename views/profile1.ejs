@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+
+    <div class="container profile1con">
+        <h1 class="profileHeading" style="text-align:left;">Your Profile</h1>
+      <div class="detail container">
+
+        <h3 class="details"><span style="color:#FF67E7;">Name :</span> <%= name %></h3><br>
+        <h3 class="details"><span style="color:#FF67E7;">College Name:</span> <%= clgname %></h3><br>
+        <h3 class="details"><span style="color:#FF67E7;">Gender:</span> <%= gender %></h3><br>
+        <h3 class="details"><span style="color:#FF67E7;">Phone No.:</span> <%= phn %></h3><br>
+        <h3 class="details"><span style="color:#FF67E7;">Email:</span> <%= username %></h3><br>
+        <a href="/profile"><button type="button" class="editBTN" name="button">Edit Profile</button></a>
+      </div>
+
+
+    </div>
+
+  <%- include('partials/footer') %>
